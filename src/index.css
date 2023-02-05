@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.nav-item{
+    @apply text-primary font-bold py-3 md:hover:bg-slate-50 p-3 rounded-full transition-all duration-200;
+}
+
 .hamburger-line{
     @apply w-[30px] h-[2px] my-2 block bg-primary
 }
