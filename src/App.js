@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="flex flex-col h-screen justify-between bg-primary font-lato">
+    <div className="flex flex-col min-h-screen justify-between bg-primary font-lato">
       <BrowserRouter>
         <Navbar />
         <Routes>
