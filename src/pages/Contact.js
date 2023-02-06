@@ -27,7 +27,7 @@ const Contact = () => {
                     <input className="mt-1 block text-primary w-full rounded-md border-gray-300 shadow-sm focus:border-primary" id="email" type="email" placeholder="Email" />
                 </div>
                 <div className="block mb-6">
-                    <label className="block text-slate-200 text-sm font-bold mb-2" htmlFor="email">Message</label>
+                    <label className="block text-slate-200 text-sm font-bold mb-2" htmlFor="message">Message</label>
                     <textarea className="mt-1 block w-full rounded-md border-primary shadow-sm focus:border-primary" name="message" id="message" cols="30" rows="5"></textarea>
                 </div>
             </div>
