@@ -27,7 +27,6 @@ const Navbar = () => {
                     <li className="md:ml-4 w-full text-center border-t-2 border-primary p-1 md:border-none md:p-0"><NavLink to="/" className="nav-item">Home</NavLink></li>
                     <li className="md:ml-4 w-full text-center border-t-2 border-primary p-1 md:border-none md:p-0"><NavLink to="/about" className="nav-item">About</NavLink></li>
                     <li className="md:ml-4 w-full text-center border-t-2 border-primary p-1 md:border-none md:p-0"><NavLink to="/projects" className="nav-item">Projects</NavLink></li>
-                    <li className="md:ml-4 w-full text-center border-t-2 border-primary p-1 md:border-none md:p-0 md:mr-4"><NavLink to="/contact" className="nav-item">Contact</NavLink></li>
                 </ul>
             </div>
         </div>
