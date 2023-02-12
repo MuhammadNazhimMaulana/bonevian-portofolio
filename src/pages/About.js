@@ -23,6 +23,7 @@ const About = () => {
                         <SkillCard icon_name={<FontAwesomeIcon icon={faReact} />} desc="React JS"></SkillCard>
                         <SkillCard icon_name={<FontAwesomeIcon icon={faHtml5} />} desc="HTML"></SkillCard>
                         <SkillCard icon_name={<FontAwesomeIcon icon={faJs} />} desc="Javascript"></SkillCard>
+                        <SkillCard icon_name={<img className="w-4 my-1" src={process.env.PUBLIC_URL + "/Skills/express.svg"} />} desc="Express JS"></SkillCard>
                         <SkillCard icon_name={<FontAwesomeIcon icon={faCss3} />} desc="CSS"></SkillCard>
                         <SkillCard icon_name={<FontAwesomeIcon icon={faBootstrap} />} desc="Bootstrap"></SkillCard>
                     </div>
