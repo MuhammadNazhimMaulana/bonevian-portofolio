@@ -18,12 +18,13 @@ const About = () => {
                 <div className="mb-2">
                     <p className="p-5 text-md font-bold text-lg">Skills</p>
                     <div className="md:grid md:grid-cols-2">
-                        <SkillCard name={<FontAwesomeIcon icon={faLaravel} />} desc="Laravel"></SkillCard>
-                        <SkillCard name={<FontAwesomeIcon icon={faReact} />} desc="React JS"></SkillCard>
-                        <SkillCard name={<FontAwesomeIcon icon={faHtml5} />} desc="HTML"></SkillCard>
-                        <SkillCard name={<FontAwesomeIcon icon={faJs} />} desc="Javascript"></SkillCard>
-                        <SkillCard name={<FontAwesomeIcon icon={faCss3} />} desc="CSS"></SkillCard>
-                        <SkillCard name={<FontAwesomeIcon icon={faBootstrap} />} desc="Bootstrap"></SkillCard>
+                        <SkillCard icon_name={<FontAwesomeIcon icon={faLaravel} />} desc="Laravel"></SkillCard>
+                        <SkillCard icon_name={<img className="w-4 my-1" src={process.env.PUBLIC_URL + "/Skills/lumen.svg"} />} desc="Lumen"></SkillCard>
+                        <SkillCard icon_name={<FontAwesomeIcon icon={faReact} />} desc="React JS"></SkillCard>
+                        <SkillCard icon_name={<FontAwesomeIcon icon={faHtml5} />} desc="HTML"></SkillCard>
+                        <SkillCard icon_name={<FontAwesomeIcon icon={faJs} />} desc="Javascript"></SkillCard>
+                        <SkillCard icon_name={<FontAwesomeIcon icon={faCss3} />} desc="CSS"></SkillCard>
+                        <SkillCard icon_name={<FontAwesomeIcon icon={faBootstrap} />} desc="Bootstrap"></SkillCard>
                     </div>
                 </div>
             </div>

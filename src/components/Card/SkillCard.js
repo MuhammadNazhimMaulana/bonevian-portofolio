@@ -1,8 +1,8 @@
-const SkillCard = ({name, desc}) => {
+const SkillCard = ({icon_name, desc}) => {
     return ( 
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-slate-200 mb-6">
             <div className="px-3 py-2 flex">
-                <div className="text-primary mr-4">{name}</div>
+                <div className="text-primary mr-4">{icon_name}</div>
                 <p className="text-gray-700 text-base text-justify">
                     {desc}
                 </p>
