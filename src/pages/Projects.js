@@ -8,8 +8,8 @@ const Projects = () => {
                 <p className="text-justify px-1 my-4 text-sm md:text-lg">Here are some projects that I have done</p>
             </div>
             <div className="lg:grid lg:grid-cols-2">
-                <ProjectCard picture="lara-gis.png" name="Laravel Gis" desc="A simple Laravel Project that use Leaflet js for showing map." />
-                <ProjectCard picture="lumen-fake-api.png" name="Lumen API" desc="Lumen API with dummy data that could be used for practicing api consumption." />
+                <ProjectCard link="https://github.com/KonferensiHantuProject/laravel-gis" picture="lara-gis.png" name="Laravel Gis" desc="A simple Laravel Project that use Leaflet js for showing map." />
+                <ProjectCard link="https://github.com/KonferensiHantuProject/fake-data" picture="lumen-fake-api.png" name="Lumen API" desc="Lumen API with dummy data that could be used for practicing api consumption." />
             </div>
         </div>
      );
