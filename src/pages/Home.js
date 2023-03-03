@@ -9,10 +9,13 @@ const Home = () => {
                 <p className="text-justify p-5 text-sm md:text-lg">Currently I am 20 Years Old and still study at college. I really like coding especially things that related with Back End Development. But I am also interested in Front End Stuffs. Currently still practicing on React and also Express JS. I am also experienced in using PHP Frameworks Like Laravel, Code Igniter, and Lumen. I want to improve my skills more from practicing and having more projects.</p>
                 <div className="p-5 -mt-4">
                     <Link  to="http://github.com/MuhammadNazhimMaulana" target="_blank">
-                        <button className="p-2 text-sm bg-slate-200 text-primary rounded-lg hover:bg-white">My Github</button>
+                        <button className="hover:animate-bounce p-2 text-sm bg-slate-200 text-primary rounded-lg hover:bg-white">
+                            <span>My Github</span>
+                        </button>
                     </Link >
                 </div>
             </div>
+
         </div>
      );
 }
